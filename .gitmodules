@@ -1,0 +1,6 @@
+[submodule "dependencies/libigl"]
+	path = dependencies/libigl
+	url = https://github.com/libigl/libigl.git
+[submodule "dependencies/LBFGSpp"]
+	path = dependencies/LBFGSpp
+	url = https://github.com/yixuan/LBFGSpp
