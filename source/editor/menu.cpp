@@ -30,8 +30,8 @@ void Menu::init_size(float _width, float _offset_x, float _offset_y, std::string
 void Menu::begin_menu()
 {
 	float menu_width = width; // *data_model.menu.menu_scaling();
-	ImGui::SetNextWindowPos(ImVec2(offset_x, offset_y), ImGuiSetCond_FirstUseEver);
-	//ImGui::SetNextWindowSize(ImVec2(menu_width, 0.0f), ImGuiSetCond_FirstUseEver);
+	ImGui::SetNextWindowPos(ImVec2(offset_x, offset_y), ImGuiCond_FirstUseEver);
+	//ImGui::SetNextWindowSize(ImVec2(menu_width, 0.0f), ImGuiCond_FirstUseEver);
 	ImGui::SetNextWindowSizeConstraints(ImVec2(menu_width, -1.0f), ImVec2(menu_width, -1.0f));
 	bool _viewer_menu_visible = true;
 

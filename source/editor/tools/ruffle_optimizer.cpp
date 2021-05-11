@@ -236,7 +236,7 @@ void RuffleOptimizer::update_part_view(igl::opengl::glfw::Viewer& viewer, int pa
 		Vector3 xyz = target.origin + uv(0)*target.u_dir + uv(1)*target.v_dir;
 		viewer.data().add_label(xyz, "M");
 	}
-	viewer.data().show_labels = true;
+	viewer.data().show_custom_labels = true;
 	/*
 	viewer.data().uniform_colors(
 		part_index == view_model.selected_part_index ? Colors::YELLOW : Colors::GRAY_LIGHT,

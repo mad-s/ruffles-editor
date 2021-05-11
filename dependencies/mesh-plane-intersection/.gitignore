@@ -1,0 +1,11 @@
+# Visual studio settings
+.vs
+*.user
+
+# Build output
+Debug
+Release
+x64
+
+#nuget
+packages
